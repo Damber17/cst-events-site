@@ -2,7 +2,7 @@ name: Site pipeline
 on: push
 jobs:
  test:
- runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
  steps:
  - name: Fetch the repository
  uses: actions/checkout@v4
